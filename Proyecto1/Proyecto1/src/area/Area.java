@@ -6,10 +6,10 @@ public class Area {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.println("indique el radio");
+		System.out.println("indique el lado");
 		
-		double radio =input.nextInt();
-		double area= Math.PI*radio*radio;
+		double lado =input.nextInt();
+		double area= lado*lado;
 		
 		System.out.println("el area es "+(area));
 		
